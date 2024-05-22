@@ -1,0 +1,27 @@
+pkgbase = fotoxx
+	pkgdesc = Image editing and collection management program
+	pkgver = 23.82
+	pkgrel = 1
+	epoch = 2
+	url = https://www.kornelix.net/fotoxx/fotoxx.html
+	arch = x86_64
+	license = GPL3
+	depends = dcraw
+	depends = gtk3
+	depends = libchamplain
+	depends = perl-image-exiftool
+	depends = xdg-utils
+	depends = xorg-xmessage
+	optdepends = darktable: organize and develop raw images
+	optdepends = dvd+rw-tools: for burning CDs, DVDs and Blue-rays
+	optdepends = ffmpeg: for video files
+	optdepends = ghostscript: for .pdf, .ps and .eps files
+	optdepends = hugin: for panorama photos
+	optdepends = libheif: for .heic, .avif and .webp files
+	optdepends = liborigin: for .jp2 files
+	optdepends = rawtherapee: for raw image processing
+	optdepends = vlc: for viewing video
+	source = https://www.kornelix.net/downloads/downloads/fotoxx-23.82-source.tar.gz
+	sha256sums = 323c34903fa4fd96b38a3f5997af970e4ed4f33200b579fdb36165f248d31eb3
+
+pkgname = fotoxx
